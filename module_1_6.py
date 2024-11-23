@@ -1,0 +1,15 @@
+my_dict = {'name':'Skuf', 'hobby': 'gamming'}
+print(my_dict)
+print(my_dict.get('name'))
+print(my_dict.get('Aboba'))
+my_dict.update({'wife': 'alt', 'control': 'del'})
+print(my_dict)
+print(my_dict.pop('control'))
+print(my_dict)
+my_set = {1.1, True, 1.1, 'Hi!'}
+print(my_set)
+my_set.add('Bye!')
+my_set.add(3)
+print(my_set)
+my_set.remove(1.1)
+print(my_set)
